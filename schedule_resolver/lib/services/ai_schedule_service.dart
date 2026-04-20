@@ -15,7 +15,7 @@ class AiScheduleService extends ChangeNotifier{
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;
 
-  final String _apiKey = 'AIzaSyBoYFn7zSybLyimzmj_CUVscir7VXwbWy4';
+  final String _apiKey = '';
 
   Future<void> analyzeSchedule(List<TaskModel> tasks) async {
 
